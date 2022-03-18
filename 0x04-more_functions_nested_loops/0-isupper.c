@@ -7,9 +7,8 @@
  * and returns 0 if otherwise
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
-	char c;
 
 	if (c >= 65 && c <= 90)
 	{
