@@ -4,6 +4,7 @@ int main (int argc, char *argv[])
 {
 	int count;
 	printf ("This program was called with \"%s\".\n",argv[0]);
+	printf("%d\n", argc);
 
   	if (argc > 1)
     	{
