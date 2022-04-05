@@ -26,8 +26,6 @@ char *create_array(unsigned int size, char c)
 			point[i] = c;
 			i++;
 		}
-		return (point);
-		free(point);
 	}
-	return (NULL);
+	return (point);
 }
