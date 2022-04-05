@@ -17,12 +17,16 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
-	point = malloc(sizeof(char) * size);
-	while (i < size)
+	else
 	{
-		point[i] = c;
-		i++;
-	}
 
-	return (point);
+		point = malloc(sizeof(char) * size);
+		while (i < size)
+		{
+			point[i] = c;
+			i++;
+		}
+		return (point);
+	}
+	return (NULL);
 }
