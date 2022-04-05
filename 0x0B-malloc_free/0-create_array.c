@@ -18,8 +18,6 @@ char *create_array(unsigned int size, char c)
 	}
 
 	point = malloc(sizeof(char) * size);
-	
-	
 	while (i < size)
 	{
 		point[i] = c;
