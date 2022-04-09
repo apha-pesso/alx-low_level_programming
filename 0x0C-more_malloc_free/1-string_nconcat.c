@@ -38,7 +38,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (; k < (i + n); k++)
 		space[k] = s2[k - i];
 
-	space[i] = '\0';
+	space[k] = '\0';
 
 	return (space);
 }
