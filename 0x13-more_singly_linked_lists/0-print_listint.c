@@ -2,7 +2,7 @@
 
 /**
  * print_listint - function to print all elements
- * @h: head element
+ * @h: head element pointer
  * Return: number of nodes
  */
 
