@@ -1,12 +1,12 @@
 #include "lists.h"
 
 /**
- * free_listint_t - free a linked list
+ * free_listint - free a linked list
  * @head: head pointer
  * Return: void
  */
 
-void free_listint_t(listint_t *head)
+void free_listint(listint_t *head)
 {
 	listint_t *node;
 
